@@ -1,9 +1,9 @@
 using System;
 
-
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) {
+
    Console.Write("Enter your first name: ");
             string firstName = Console.ReadLine();
 
@@ -12,4 +12,4 @@ class Program
 
             Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}");
     }
-
+}
